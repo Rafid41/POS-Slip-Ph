@@ -1,0 +1,117 @@
+[
+  {
+    "invoiceNumber": "INV-2025-001",
+    "date": "2025-09-25",
+    "dueDate": "2025-10-25",
+    "terms": "Due in 30 days",
+    "currencySymbol": "$",
+    "company": {
+      "name": "Chistia Trading Ltd",
+      "address": "House 12, Road 7, Dhaka, Bangladesh",
+      "phone": "+8801712345678",
+      "email": "sales@acme.bd",
+      "logoBase64": "logo_ns_foundation"
+    },
+    "customer": {
+      "name": "Moin Uddin",
+      "company": "NS Foundation",
+      "address": "Patuakhali, Bangladesh",
+      "email": "moin@example.com",
+      "phone": "+88017XXXXXXX"
+    },
+    "items": [
+      {
+        "description": "Stainless Steel Kitchen Set",
+        "quantity": 2,
+        "unitPrice": 1500.00,
+        "taxPercent": 5
+      },
+      {
+        "description": "Facial Cleanser (Cosmetic)",
+        "quantity": 3,
+        "unitPrice": 350,
+        "taxPercent": 0
+      }
+    ],
+    "discount": 100,
+    "notes": "Payment by bank transfer to Chistia Trading Ltd. Bank: ABC Bank, A/C: 123456789.",
+    "footer": "If you have questions about this invoice, contact support@acme.bd"
+  },
+  {
+    "invoiceNumber": "INV-2025-002",
+    "date": "2025-09-26",
+    "dueDate": "2025-10-26",
+    "terms": "Due in 30 days",
+    "currencySymbol": "৳",
+    "company": {
+      "name": "Acme Trading Ltd",
+      "address": "House 12, Road 7, Dhaka, Bangladesh",
+      "phone": "+8801712345678",
+      "email": "sales@acme.bd",
+      "logoBase64": "logo_ns_foundation"
+    },
+    "customer": {
+      "name": "John Doe",
+      "company": "Doe Corp",
+      "address": "Dhaka, Bangladesh",
+      "email": "john.doe@example.com",
+      "phone": "+88018XXXXXXX"
+    },
+    "items": [
+      {
+        "description": "Product A",
+        "quantity": 1,
+        "unitPrice": 1000.00,
+        "taxPercent": 10
+      },
+      {
+        "description": "Product B",
+        "quantity": 2,
+        "unitPrice": 500,
+        "taxPercent": 5
+      }
+    ],
+    "discount": 50,
+    "notes": "Payment by bank transfer to Acme Trading Ltd. Bank: ABC Bank, A/C: 123456789.",
+    "footer": "If you have questions about this invoice, contact support@acme.bd"
+  },
+   {
+    "invoiceNumber": "INV-2025-003",
+    "date": "2025-09-26",
+    "dueDate": "2025-10-26",
+    "terms": "Due in 30 days",
+    "currencySymbol": "৳",
+    "company": {
+      "name": "XYZz Trading Ltd",
+      "address": "House 11, Road 4, Dhaka, Bangladesh",
+      "phone": "+8801712345448",
+      "email": "sales@acme.bd",
+      "logoBase64": "logo_ns_foundation"
+    },
+    "customer": {
+      "name": "John Doe",
+      "company": "Doe Corp",
+      "address": "Dhaka, Bangladesh",
+      "email": "john.doe@example.com",
+      "phone": "+88018XXXXXXX"
+    },
+    "items": [
+      {
+        "description": "Product A",
+        "quantity": 1,
+        "unitPrice": 1000.00,
+        "taxPercent": 10
+      },
+      {
+        "description": "Product B",
+        "quantity": 2,
+        "unitPrice": 500,
+        "taxPercent": 5
+      }
+    ],
+    "discount": 50,
+    "notes": "Payment by bank transfer to Acme Trading Ltd. Bank: ABC Bank, A/C: 123456789.",
+    "footer": "If you have questions about this invoice, contact support@acme.bd"
+  }
+   
+]

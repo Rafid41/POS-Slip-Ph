@@ -1,0 +1,38 @@
+  {
+  "Customer_Id": "John01",
+  "Transaction_Id": "TXN00123456",
+  "Order_Id": "ORD123456",
+  "QR_Code": "ORD123456",
+  "Order_Date": "2024-06-15",
+  "Order_Status": "Shipped",
+  "Payment_Method": "COD",
+  "Customer_Name": "John Doe",
+  "Customer_Address": "123 Main Street, Dhaka",
+  "Customer_Location": "Dhaka",
+  "Customer_Region": "Bangladesh",
+  "Price_Subtotal": 33000,
+  "Price_Tax_Percentise": 5,
+  "Shipping_Cost": 100,
+  "Total": 34750,
+  "Discount_Amount": 50,
+  "Payment_CardHolder_Name": "John Doe",
+  "Payment_Card_Number": "**** **** **** 1234",
+  "Payment_Card_Expiry_Date": "12/27",
+  "Products": [
+    {
+      "name": "Paracetamol 500mg",
+      "price": 80,
+      "quantity": 2
+    },
+    {
+      "name": "Entacid",
+      "price": 20,
+      "quantity": 3
+    },
+    {
+      "name": "Vitamin C 500mg",
+      "price": 500,
+      "quantity": 1
+    }
+  ]
+}
