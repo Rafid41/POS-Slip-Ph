@@ -50,10 +50,10 @@ function calculateHeight(order, pageWidth, margin, fontName) {
 
   // Column widths for table
   const colWidths = {
-    item: mmToPt(33),
-    qty: mmToPt(10),
-    price: mmToPt(16),
-    total: mmToPt(16),
+    item: mmToPt(20),
+    qty: mmToPt(8),
+    price: mmToPt(14),
+    total: mmToPt(15),
   };
 
   // Calculate rows height considering wrapped product names
@@ -159,18 +159,18 @@ function generatePOSSlip(order, res) {
 
   // Column widths
   const colWidths = {
-    item: mmToPt(33),
-    qty: mmToPt(10),
-    price: mmToPt(16),
-    total: mmToPt(16),
+    item: mmToPt(20),
+    qty: mmToPt(8),
+    price: mmToPt(14),
+    total: mmToPt(15),
   };
 
   // Table header
   doc.font(fontName).fontSize(8).font('Helvetica-Bold');
   doc.text('Item', startX, y, { width: colWidths.item, align: 'left' });
   doc.text('Qty', startX + colWidths.item, y, { width: colWidths.qty, align: 'right' });
-  doc.text('Price', startX + colWidths.item + colWidths.qty, y, { width: colWidths.price, align: 'right' });
-  doc.text('Total', startX + colWidths.item + colWidths.qty + colWidths.price, y, { width: colWidths.total, align: 'right' });
+  doc.text('Price', startX + colWidths.item + colWidths.qty - mmToPt(2), y, { width: colWidths.price, align: 'right' });
+  doc.text('Total', startX + colWidths.item + colWidths.qty + colWidths.price - mmToPt(2), y, { width: colWidths.total, align: 'right' });
   y += 12;
 
   doc.moveTo(startX, y - 5).lineTo(pageWidth - margin, y - 5).stroke();
@@ -200,11 +200,11 @@ function generatePOSSlip(order, res) {
       width: colWidths.qty,
       align: 'right',
     });
-    doc.text(`$${product.price.toFixed(2)}`, startX + colWidths.item + colWidths.qty, y + valignOffset, {
+    doc.text(`${product.price.toFixed(2)}`, startX + colWidths.item + colWidths.qty - mmToPt(2), y + valignOffset, {
       width: colWidths.price,
       align: 'right',
     });
-    doc.text(`$${(product.price * product.quantity).toFixed(2)}`, startX + colWidths.item + colWidths.qty + colWidths.price, y + valignOffset, {
+    doc.text(`${(product.price * product.quantity).toFixed(2)}`, startX + colWidths.item + colWidths.qty + colWidths.price - mmToPt(2), y + valignOffset, {
       width: colWidths.total,
       align: 'right',
     });
@@ -217,28 +217,28 @@ function generatePOSSlip(order, res) {
 
   // Totals
   doc.font('Helvetica-Bold').fontSize(7);
-  doc.text('Subtotal:', startX + colWidths.item + colWidths.qty, y, { width: colWidths.price, align: 'right' });
-  doc.font('Helvetica').text(`$${order.Price_Subtotal.toFixed(2)}`, startX + colWidths.item + colWidths.qty + colWidths.price, y, { width: colWidths.total, align: 'right' });
+  doc.text('Subtotal:', startX + colWidths.item, y, { width: colWidths.price, align: 'right' });
+  doc.font('Helvetica').text(`${order.Price_Subtotal.toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
   y += 12;
 
-  doc.font('Helvetica-Bold').text('Discount:', startX + colWidths.item + colWidths.qty, y, { width: colWidths.price, align: 'right' });
-  doc.font('Helvetica').text(`$${order.Discount_Amount.toFixed(2)}`, startX + colWidths.item + colWidths.qty + colWidths.price, y, { width: colWidths.total, align: 'right' });
+  doc.font('Helvetica-Bold').text('Discount:', startX + colWidths.item, y, { width: colWidths.price, align: 'right' });
+  doc.font('Helvetica').text(`${order.Discount_Amount.toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
   y += 12;
 
   const newSubtotal = order.Price_Subtotal - order.Discount_Amount;
 
-  doc.font('Helvetica-Bold').text(`Tax (${order.Price_Tax_Percentise}%):`, startX + colWidths.item + colWidths.qty, y, { width: colWidths.price, align: 'right' });
-  doc.font('Helvetica').text(`$${(newSubtotal * order.Price_Tax_Percentise / 100).toFixed(2)}`, startX + colWidths.item + colWidths.qty + colWidths.price, y, { width: colWidths.total, align: 'right' });
+  doc.font('Helvetica-Bold').text(`Tax (${order.Price_Tax_Percentise}%):`, startX + colWidths.item, y, { width: colWidths.price, align: 'right' });
+  doc.font('Helvetica').text(`${(newSubtotal * order.Price_Tax_Percentise / 100).toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
   y += 12;
 
-  doc.font('Helvetica-Bold').text('Shipping:', startX + colWidths.item + colWidths.qty, y, { width: colWidths.price, align: 'right' });
-  doc.font('Helvetica').text(`$${order.Shipping_Cost.toFixed(2)}`, startX + colWidths.item + colWidths.qty + colWidths.price, y, { width: colWidths.total, align: 'right' });
+  doc.font('Helvetica-Bold').text('Shipping:', startX + colWidths.item, y, { width: colWidths.price, align: 'right' });
+  doc.font('Helvetica').text(`${order.Shipping_Cost.toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
   y += 15;
 
   const total = newSubtotal + (newSubtotal * order.Price_Tax_Percentise / 100) + order.Shipping_Cost;
 
-  doc.font('Helvetica-Bold').fontSize(7.5).text('Total:', startX + colWidths.item + colWidths.qty, y, { width: colWidths.price, align: 'right' });
-  doc.font('Helvetica').fontSize(7.5).text(`$${total.toFixed(2)}`, startX + colWidths.item + colWidths.qty + colWidths.price, y, { width: colWidths.total, align: 'right' });
+  doc.font('Helvetica-Bold').fontSize(7.5).text('Total:', startX + colWidths.item, y, { width: colWidths.price, align: 'right' });
+  doc.font('Helvetica').fontSize(7.5).text(`${total.toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
   y += 20;
 
   // Footer
