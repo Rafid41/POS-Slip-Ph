@@ -6,97 +6,20 @@ const qr = require('qr-image');
 
 const mmToPt = mm => mm * 2.835;
 
-// Function to calculate the required PDF height dynamically
-function calculateHeight(order, pageWidth, margin, fontName) {
-  // Create a temporary PDF document for measuring text
-  const doc = new PDFDocument({
-    size: [pageWidth, 10000], // very tall, to fit all content during measurement
-    margins: { top: margin, bottom: margin, left: margin, right: margin },
-    autoFirstPage: false,
-  });
-  doc.addPage();
-
-  const usableWidth = pageWidth - 2 * margin;
-
-  // Fixed heights
-  const logoHeight = mmToPt(50);
-  const addressFontSize = 7;
-  const orderInfoFontSize = 7;
-  const tableHeaderFontSize = 8;
-  const tableRowFontSize = 7;
-  const rowBaseHeight = 12; // default row height when product name is short
-  const totalsFontSize = 8;
-  const footerHeight = 20;
-
-  // Measure address height (2 lines)
-  doc.font(fontName).fontSize(addressFontSize);
-  const addressLineHeight = doc.heightOfString('123 Main Street', { width: usableWidth, align: 'center' });
-  const addressHeight = addressLineHeight * 2 + 10; // plus some spacing
-
-  // Measure order info height (4 lines)
-  doc.font(fontName).fontSize(orderInfoFontSize);
-  const orderIdHeight = doc.heightOfString(`Order Id: ${order.Order_Id}`, { width: usableWidth });
-  const orderDateHeight = doc.heightOfString(`Order Date: ${order.Order_Date}`, { width: usableWidth });
-  const orderStatusHeight = doc.heightOfString(`Order Status: ${order.Order_Status}`, { width: usableWidth });
-  const paymentMethodHeight = doc.heightOfString(`Payment Method: ${order.Payment_Method}`, { width: usableWidth });
-  const orderInfoHeight = orderIdHeight + orderDateHeight + orderStatusHeight + paymentMethodHeight + 10;
-
-  // Measure "Bill To" height (4 lines)
-  const billToHeight = doc.heightOfString(`Bill To:`, { width: usableWidth }) + doc.heightOfString(`${order.Customer_Name}`, { width: usableWidth }) + doc.heightOfString(`${order.Customer_Address}`, { width: usableWidth }) + doc.heightOfString(`${order.Customer_Location}`, { width: usableWidth }) + doc.heightOfString(`${order.Customer_Region}`, { width: usableWidth }) + 10;
-
-  // Table header height
-  doc.font(fontName).fontSize(tableHeaderFontSize).font('Helvetica-Bold');
-  const tableHeaderHeight = doc.heightOfString('Item Qty Price Total', { width: usableWidth });
-
-  // Column widths for table
-  const colWidths = {
-    item: mmToPt(20),
-    qty: mmToPt(8),
-    price: mmToPt(14),
-    total: mmToPt(15),
-  };
-
-  // Calculate rows height considering wrapped product names
-  doc.font(fontName).fontSize(tableRowFontSize).font('Helvetica');
-  let rowsHeight = 0;
-  order.Products.forEach(product => {
-    const nameHeight = doc.heightOfString(product.name, { width: colWidths.item, align: 'left' });
-    rowsHeight += Math.max(nameHeight, rowBaseHeight);
-  });
-
-  // Totals height: subtotal, discount, tax, shipping, total (5 lines) + buffer
-  const totalsHeight = rowBaseHeight * 5 + 20;
-
-  // Sum up all parts plus margins and extra buffer
-  const totalHeight =
-    margin +
-    logoHeight +
-    addressHeight +
-    orderInfoHeight +
-    billToHeight +
-    tableHeaderHeight +
-    rowsHeight +
-    totalsHeight +
-    footerHeight +
-    margin + 30; // buffer
-
-  return totalHeight;
-}
-
 function generatePOSSlip(order, res) {
   const pageWidth = mmToPt(57); // 57mm width
+  const pageHeight = mmToPt(200); // A fixed height for the page
   const margin = mmToPt(1);
 
   const arialFontPath = path.join('.', 'fonts', 'arial.ttf');
   const fontName = fs.existsSync(arialFontPath) ? 'Arial' : 'Helvetica';
 
-  // Calculate page height dynamically based on order content
-  const pageHeight = calculateHeight(order, pageWidth, margin, fontName);
-
   const doc = new PDFDocument({
     size: [pageWidth, pageHeight],
     margins: { top: margin, bottom: margin, left: margin, right: margin },
+    autoFirstPage: false,
   });
+  doc.addPage();
 
   doc.pipe(res);
 
@@ -159,33 +82,59 @@ function generatePOSSlip(order, res) {
 
   // Column widths
   const colWidths = {
-    item: mmToPt(20),
+    item: mmToPt(18),
     qty: mmToPt(8),
     price: mmToPt(14),
     total: mmToPt(15),
   };
 
   // Table header
-  doc.font(fontName).fontSize(8).font('Helvetica-Bold');
-  doc.text('Item', startX, y, { width: colWidths.item, align: 'left' });
-  doc.text('Qty', startX + colWidths.item, y, { width: colWidths.qty, align: 'right' });
-  doc.text('Price', startX + colWidths.item + colWidths.qty - mmToPt(2), y, { width: colWidths.price, align: 'right' });
-  doc.text('Total', startX + colWidths.item + colWidths.qty + colWidths.price - mmToPt(2), y, { width: colWidths.total, align: 'right' });
-  y += 12;
+  const drawTableHeader = () => {
+    doc.font(fontName).fontSize(8).font('Helvetica-Bold');
+    doc.text('Item', startX, y, { width: colWidths.item, align: 'left' });
+    doc.text('Qty', startX + colWidths.item, y, { width: colWidths.qty, align: 'right' });
+    doc.text('Price', startX + colWidths.item + colWidths.qty, y, { width: colWidths.price, align: 'right' });
+    doc.text('Total', startX + colWidths.item + colWidths.qty + colWidths.price, y, { width: colWidths.total, align: 'right' });
+    y += 12;
+    doc.moveTo(startX, y - 5).lineTo(pageWidth - margin, y - 5).stroke();
+  };
 
-  doc.moveTo(startX, y - 5).lineTo(pageWidth - margin, y - 5).stroke();
+  drawTableHeader();
 
   // Table rows with wrapped product name and aligned qty/price/total
   doc.font('Helvetica').fontSize(7);
+  const tableBottom = pageHeight - margin - 100; // 100 for footer and totals
+
   order.Products.forEach(product => {
     const productName = product.name;
+    const quantity = product.quantity.toString();
+    const price = product.price.toFixed(2);
+    const lineTotal = (product.price * product.quantity).toFixed(2);
 
     const productNameHeight = doc.heightOfString(productName, {
       width: colWidths.item,
       align: 'left',
     });
+    const quantityHeight = doc.heightOfString(quantity, {
+      width: colWidths.qty,
+      align: 'right',
+    });
+    const priceHeight = doc.heightOfString(price, {
+      width: colWidths.price,
+      align: 'right',
+    });
+    const totalHeight = doc.heightOfString(lineTotal, {
+      width: colWidths.total,
+      align: 'right',
+    });
 
-    const rowHeight = Math.max(productNameHeight, 12);
+    const rowHeight = Math.max(productNameHeight, quantityHeight, priceHeight, totalHeight, 12);
+
+    if (y + rowHeight > tableBottom) {
+      doc.addPage();
+      y = margin;
+      drawTableHeader();
+    }
 
     // Draw wrapped product name
     doc.text(productName, startX, y, {
@@ -193,18 +142,15 @@ function generatePOSSlip(order, res) {
       align: 'left',
     });
 
-    // Vertically center qty, price, total relative to rowHeight
-    const valignOffset = (rowHeight - 12) / 2;
-
-    doc.text(product.quantity.toString(), startX + colWidths.item, y + valignOffset, {
+    doc.text(quantity, startX + colWidths.item, y, {
       width: colWidths.qty,
       align: 'right',
     });
-    doc.text(`${product.price.toFixed(2)}`, startX + colWidths.item + colWidths.qty - mmToPt(2), y + valignOffset, {
+    doc.text(price, startX + colWidths.item + colWidths.qty, y, {
       width: colWidths.price,
       align: 'right',
     });
-    doc.text(`${(product.price * product.quantity).toFixed(2)}`, startX + colWidths.item + colWidths.qty + colWidths.price - mmToPt(2), y + valignOffset, {
+    doc.text(lineTotal, startX + colWidths.item + colWidths.qty + colWidths.price, y, {
       width: colWidths.total,
       align: 'right',
     });
@@ -212,8 +158,8 @@ function generatePOSSlip(order, res) {
     y += rowHeight;
   });
 
-  doc.moveTo(startX, y - 5).lineTo(pageWidth - margin, y - 5).stroke();
-  y += 8;
+  doc.moveTo(startX, y + 5).lineTo(pageWidth - margin, y + 5).stroke();
+  y += 13;
 
   // Totals
   doc.font('Helvetica-Bold').fontSize(7);
@@ -225,20 +171,16 @@ function generatePOSSlip(order, res) {
   doc.font('Helvetica').text(`${order.Discount_Amount.toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
   y += 12;
 
-  const newSubtotal = order.Price_Subtotal - order.Discount_Amount;
-
   doc.font('Helvetica-Bold').text(`Tax (${order.Price_Tax_Percentise}%):`, startX + colWidths.item, y, { width: colWidths.price, align: 'right' });
-  doc.font('Helvetica').text(`${(newSubtotal * order.Price_Tax_Percentise / 100).toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
+  doc.font('Helvetica').text(`${(order.Price_Subtotal * order.Price_Tax_Percentise / 100).toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
   y += 12;
 
   doc.font('Helvetica-Bold').text('Shipping:', startX + colWidths.item, y, { width: colWidths.price, align: 'right' });
   doc.font('Helvetica').text(`${order.Shipping_Cost.toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
   y += 15;
 
-  const total = newSubtotal + (newSubtotal * order.Price_Tax_Percentise / 100) + order.Shipping_Cost;
-
   doc.font('Helvetica-Bold').fontSize(7.5).text('Total:', startX + colWidths.item, y, { width: colWidths.price, align: 'right' });
-  doc.font('Helvetica').fontSize(7.5).text(`${total.toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
+  doc.font('Helvetica').fontSize(7.5).text(`${order.Total.toFixed(2)}`, startX + colWidths.item + colWidths.price, y, { width: colWidths.total, align: 'right' });
   y += 20;
 
   // Footer
