@@ -54,11 +54,11 @@ function calculateHeight(order, pageWidth, margin) {
 
   // Table header height
   doc.font('RobotoMono-Bold').fontSize(tableHeaderFontSize);
-  const tableHeaderHeight = doc.heightOfString('Product Name Qty×UnitPrice Amount', { width: usableWidth });
+  const tableHeaderHeight = doc.heightOfString('Product Name Qty x\nUnitPrice Amount', { width: usableWidth });
 
   const colWidths = {
-    productName: mmToPt(25),
-    qtyUnitPrice: mmToPt(15),
+    productName: mmToPt(20),
+    qtyUnitPrice: mmToPt(20),
     amount: mmToPt(15),
   };
 
@@ -171,20 +171,20 @@ function generatePOSSlip(order, res) {
   let y = doc.y;
 
   const colWidths = {
-    productName: mmToPt(25),
-    qtyUnitPrice: mmToPt(15),
+    productName: mmToPt(20),
+    qtyUnitPrice: mmToPt(20),
     amount: mmToPt(15),
   };
 
   // Table header
   doc.font('RobotoMono-Bold').fontSize(8);
   doc.text('Product Name', startX, y, { width: colWidths.productName });
-  doc.text('Qty×UnitPrice', startX + colWidths.productName, y, { width: colWidths.qtyUnitPrice, align: 'right' });
+  doc.text('Qty x\nUnitPrice', startX + colWidths.productName, y, { width: colWidths.qtyUnitPrice, align: 'right' });
   doc.text('Amount', startX + colWidths.productName + colWidths.qtyUnitPrice, y, { width: colWidths.amount, align: 'right' });
-  y += 12;
+  y += 24;
 
-  doc.moveTo(startX, y + 10).lineTo(pageWidth - margin, y + 10).stroke();
-  y += 15;
+  doc.moveTo(startX, y + 5).lineTo(pageWidth - margin, y + 5).stroke();
+  y += 10;
 
   // Table rows
   doc.font('RobotoMono-Regular').fontSize(8);
@@ -235,7 +235,7 @@ function generatePOSSlip(order, res) {
   y = currentY + 20;
 
   // Footer
-  doc.moveTo(startX, y - 10).lineTo(pageWidth - margin, y - 10).stroke();
+  doc.moveTo(startX, y - 5).lineTo(pageWidth - margin, y - 5).stroke();
   doc.font('RobotoMono-Regular').fontSize(8).text('Thank you for your purchase!', 0, y, { align: 'center', width: pageWidth });
   doc.fontSize(7).text('Visit us again!', { align: 'center', width: pageWidth });
 

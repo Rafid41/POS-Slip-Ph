@@ -1,2 +1,1 @@
-move subtotal section more left, its intersecting with data
-
+make the hr line after total section more 1 line down
