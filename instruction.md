@@ -1,10 +1,6 @@
-make font size 6
 
-remove address bar below the logo
+erase 1 blank line after table header 
+erase 1 blankline befor starting of table data
 
-for table remove price from Qty x UnitePrice, also remove the data from here too, only need qty
 
-from bill To section
-Make Customer Id to CId
-remove Contact No header. only number will remaiin
-
+make little bit of more sace between order details and bill to

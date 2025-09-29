@@ -149,7 +149,8 @@ function generatePOSSlip(order, res) {
   doc.text(`${order.billingAddressSnapshot.contactNo}`, { width: halfWidth });
   const finalRightY = doc.y;
 
-  doc.y = Math.max(finalLeftY, finalRightY) + 10;
+  // Add more space between Order details and Bill To
+  doc.y = Math.max(finalLeftY, finalRightY) + 15;
 
   const startX = margin;
   let y = doc.y;
@@ -165,10 +166,11 @@ function generatePOSSlip(order, res) {
   doc.text('Product Name', startX, y, { width: colWidths.productName });
   doc.text('Qty', startX + colWidths.productName, y, { width: colWidths.qty, align: 'right' });
   doc.text('Amount', startX + colWidths.productName + colWidths.qty, y, { width: colWidths.amount, align: 'right' });
-  y += 20;
 
+  // no blank line after header
+  y += 12;
   doc.moveTo(startX, y).lineTo(pageWidth - margin, y).stroke();
-  y += 10;
+  y += 2; // just a thin separator, not a full blank line
 
   // Table rows
   doc.font('RobotoMono-Regular').fontSize(6);
