@@ -78,7 +78,7 @@
             "StockBatchId": null,
             "boxQuantity": 1,
             "stripQuantity": 2,
-            "unitQuantity": 1,
+            "unitQuantity": 2,
             "price": 175,
             "unitPriceRate": 175,
             "stripPriceRate": 0,

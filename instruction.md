@@ -1,6 +1,15 @@
 
-erase 1 blank line after table header 
-erase 1 blankline befor starting of table data
+in order details section
 
 
-make little bit of more sace between order details and bill to
+Order Code:
+Order Date:
+
+Order Status:
+
+Payment Method: 
+
+
+make Order Code => Code
+    Order Date to Date
+    Order Status to Status

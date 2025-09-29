@@ -128,17 +128,23 @@ function generatePOSSlip(order, res) {
   const qr_png = qr.imageSync(order.QRCode, { type: 'png' });
   doc.image(qr_png, qrCodeX, qrCodeY, { width: qrCodeWidth, height: qrCodeWidth });
 
-  // Order details
+ // Order details
   const orderDetailsStartY = logoY + logoHeight;
   const halfWidth = (pageWidth - 2 * margin) / 2;
 
   doc.fontSize(6).font('RobotoMono-Bold').text('Order details', margin, orderDetailsStartY, { width: halfWidth });
   doc.font('RobotoMono-Regular');
-  doc.text(`Order Code: ${order.orderCode}`, { width: halfWidth });
-  doc.text(`Order Date: ${new Date(order.createdAt).toLocaleString('sv-SE')}`, { width: halfWidth });
-  doc.text(`Order Status: ${order.status}`, { width: halfWidth });
+  doc.text(`Code: ${order.orderCode}`, { width: halfWidth });
+  // Format date as yyyy-mm-dd hh:mm
+  const createdAt = new Date(order.createdAt);
+  const formattedDate = createdAt.toISOString().slice(0, 16).replace('T', ' ');
+
+  doc.text(`Date: ${formattedDate}`, { width: halfWidth });
+
+  doc.text(`Status: ${order.status}`, { width: halfWidth });
   doc.text(`Payment Method: ${order.paymentMethod}`, { width: halfWidth });
   const finalLeftY = doc.y;
+
 
   // Bill to
   doc.y = orderDetailsStartY;
