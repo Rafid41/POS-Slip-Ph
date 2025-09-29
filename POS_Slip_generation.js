@@ -7,7 +7,7 @@ const qr = require('qr-image');
 const mmToPt = mm => mm * 2.835;
 
 // Function to calculate the required PDF height dynamically
-function calculateHeight(order, pageWidth, margin, fontName) {
+function calculateHeight(order, pageWidth, margin) {
   const doc = new PDFDocument({
     size: [pageWidth, 10000],
     margins: { top: margin, bottom: margin, left: margin, right: margin },
@@ -15,7 +15,11 @@ function calculateHeight(order, pageWidth, margin, fontName) {
   });
   doc.addPage();
 
+  doc.registerFont('RobotoMono-Regular', 'static/fonts/RobotoMono/RobotoMono-Regular.ttf');
+  doc.registerFont('RobotoMono-Bold', 'static/fonts/RobotoMono/RobotoMono-Bold.ttf');
+
   const usableWidth = pageWidth - 2 * margin;
+  const halfWidth = usableWidth / 2;
 
   const logoHeight = 50;
   const addressFontSize = 7;
@@ -26,28 +30,30 @@ function calculateHeight(order, pageWidth, margin, fontName) {
   const footerHeight = 20;
 
   // Address height (2 lines)
-  doc.font(fontName).fontSize(addressFontSize);
+  doc.font('RobotoMono-Regular').fontSize(addressFontSize);
   const addressLineHeight = doc.heightOfString('123 Main Street', { width: usableWidth });
   const addressHeight = addressLineHeight * 2 + 10;
 
   // Order info height
-  doc.font(fontName).fontSize(orderInfoFontSize);
-  const orderInfoHeight =
-    doc.heightOfString(`Order details`, { width: usableWidth }) +
-    doc.heightOfString(`Order Code: ${order.orderCode}`, { width: usableWidth }) +
-    doc.heightOfString(`Order Date: ${order.createdAt}`, { width: usableWidth }) +
-    doc.heightOfString(`Order Status: ${order.status}`, { width: usableWidth }) +
-    doc.heightOfString(`Payment Method: ${order.paymentMethod}`, { width: usableWidth }) + 10;
+  doc.font('RobotoMono-Regular').fontSize(orderInfoFontSize);
+  const leftColumnHeight =
+    doc.font('RobotoMono-Bold').heightOfString(`Order details`, { width: halfWidth }) +
+    doc.font('RobotoMono-Regular').heightOfString(`Order Code: ${order.orderCode}`, { width: halfWidth }) +
+    doc.heightOfString(`Order Date: ${order.createdAt}`, { width: halfWidth }) +
+    doc.heightOfString(`Order Status: ${order.status}`, { width: halfWidth }) +
+    doc.heightOfString(`Payment Method: ${order.paymentMethod}`, { width: halfWidth }) + 10;
 
   // Bill To height
-  const billToHeight =
-    doc.heightOfString(`Bill to:`, { width: usableWidth }) +
-    doc.heightOfString(`${order.billingAddressSnapshot.fullName}`, { width: usableWidth }) +
-    doc.heightOfString(`Customer ID: ${order.user.username}`, { width: usableWidth }) +
-    doc.heightOfString(`Contact No: ${order.billingAddressSnapshot.contactNo}`, { width: usableWidth }) + 10;
+  const rightColumnHeight =
+    doc.font('RobotoMono-Bold').heightOfString(`Bill to:`, { width: halfWidth }) +
+    doc.font('RobotoMono-Regular').heightOfString(`${order.billingAddressSnapshot.fullName}`, { width: halfWidth }) +
+    doc.heightOfString(`Customer ID: ${order.User.username}`, { width: halfWidth }) +
+    doc.heightOfString(`Contact No: ${order.billingAddressSnapshot.contactNo}`, { width: halfWidth }) + 10;
+
+  const orderAndBillToHeight = Math.max(leftColumnHeight, rightColumnHeight);
 
   // Table header height
-  doc.font(fontName).fontSize(tableHeaderFontSize).font('Helvetica-Bold');
+  doc.font('RobotoMono-Bold').fontSize(tableHeaderFontSize);
   const tableHeaderHeight = doc.heightOfString('Product Name Qty×UnitPrice Amount', { width: usableWidth });
 
   const colWidths = {
@@ -57,7 +63,7 @@ function calculateHeight(order, pageWidth, margin, fontName) {
   };
 
   // Rows height
-  doc.font(fontName).fontSize(tableRowFontSize).font('Helvetica');
+  doc.font('RobotoMono-Regular').fontSize(tableRowFontSize);
   let rowsHeight = 0;
   order.items.forEach(item => {
     const unitPrice = item.Product?.pricing?.[0]?.unitPrice || 0;
@@ -80,7 +86,7 @@ function calculateHeight(order, pageWidth, margin, fontName) {
     mmToPt(5) +
     logoHeight +
     addressHeight +
-    Math.max(orderInfoHeight, billToHeight) +
+    orderAndBillToHeight +
     tableHeaderHeight +
     rowsHeight +
     totalsHeight +
@@ -94,10 +100,7 @@ function generatePOSSlip(order, res) {
   const pageWidth = mmToPt(57);
   const margin = mmToPt(1);
 
-  const robotoMonoFontPath = path.join('.', 'fonts', 'RobotoMono-Regular.ttf');
-  const fontName = fs.existsSync(robotoMonoFontPath) ? 'Roboto Mono' : 'Helvetica';
-
-  const pageHeight = calculateHeight(order, pageWidth, margin, fontName);
+  const pageHeight = calculateHeight(order, pageWidth, margin);
 
   const doc = new PDFDocument({
     size: [pageWidth, pageHeight],
@@ -106,12 +109,11 @@ function generatePOSSlip(order, res) {
 
   doc.pipe(res);
 
-  if (fs.existsSync(robotoMonoFontPath)) {
-    doc.registerFont('Roboto Mono', robotoMonoFontPath);
-    doc.font('Roboto Mono');
-  } else {
-    doc.font('Helvetica');
-  }
+  doc.registerFont('RobotoMono-Regular', 'static/fonts/RobotoMono/RobotoMono-Regular.ttf');
+  doc.registerFont('RobotoMono-Bold', 'static/fonts/RobotoMono/RobotoMono-Bold.ttf');
+
+  doc.font('RobotoMono-Regular');
+
 
   const afterLogoY = margin + mmToPt(5);
 
@@ -136,28 +138,33 @@ function generatePOSSlip(order, res) {
 
   // Address
   const addressStartY = logoY + logoHeight;
-  doc.font(fontName).fontSize(7)
+  doc.fontSize(7)
     .text('123 Main Street', margin, addressStartY, { align: 'left' });
   doc.text('City, Country', { align: 'left' });
   doc.moveDown(1);
 
   // Order details
   const orderDetailsStartY = doc.y;
-  doc.fontSize(8).font('Helvetica-Bold').text('Order details', margin, orderDetailsStartY);
-  doc.font('Helvetica').text(`Order Code: ${order.orderCode}`);
-  doc.text(`Order Date: ${new Date(order.createdAt).toLocaleString('sv-SE')}`);
-  doc.text(`Order Status: ${order.status}`);
-  doc.text(`Payment Method: ${order.paymentMethod}`);
+  const halfWidth = (pageWidth - 2 * margin) / 2;
+
+  doc.fontSize(8).font('RobotoMono-Bold').text('Order details', margin, orderDetailsStartY, { width: halfWidth });
+  doc.font('RobotoMono-Regular');
+  doc.text(`Order Code: ${order.orderCode}`, { width: halfWidth });
+  doc.text(`Order Date: ${new Date(order.createdAt).toLocaleString('sv-SE')}`, { width: halfWidth });
+  doc.text(`Order Status: ${order.status}`, { width: halfWidth });
+  doc.text(`Payment Method: ${order.paymentMethod}`, { width: halfWidth });
+  const finalLeftY = doc.y;
 
   // Bill to
-  const billToStartX = pageWidth / 2;
-  doc.fontSize(8).font('Helvetica-Bold').text('Bill to:', billToStartX, orderDetailsStartY);
-  doc.font('Helvetica').text(order.billingAddressSnapshot?.fullName || '');
-  doc.text(`Customer ID: ${order.user.username}`);
-  doc.text(`Contact No: ${order.billingAddressSnapshot.contactNo}`);
+  doc.y = orderDetailsStartY;
+  doc.fontSize(8).font('RobotoMono-Bold').text('Bill to:', margin + halfWidth, doc.y, { width: halfWidth });
+  doc.font('RobotoMono-Regular');
+  doc.text(order.billingAddressSnapshot?.fullName || '', { width: halfWidth });
+  doc.text(`Customer ID: ${order.User.username}`, { width: halfWidth });
+  doc.text(`Contact No: ${order.billingAddressSnapshot.contactNo}`, { width: halfWidth });
+  const finalRightY = doc.y;
 
-
-  doc.y = Math.max(doc.y, doc.y + 10) + 10;
+  doc.y = Math.max(finalLeftY, finalRightY) + 10;
 
 
   const startX = margin;
@@ -170,16 +177,17 @@ function generatePOSSlip(order, res) {
   };
 
   // Table header
-  doc.font(fontName).fontSize(8).font('Helvetica-Bold');
+  doc.font('RobotoMono-Bold').fontSize(8);
   doc.text('Product Name', startX, y, { width: colWidths.productName });
   doc.text('Qty×UnitPrice', startX + colWidths.productName, y, { width: colWidths.qtyUnitPrice, align: 'right' });
   doc.text('Amount', startX + colWidths.productName + colWidths.qtyUnitPrice, y, { width: colWidths.amount, align: 'right' });
   y += 12;
 
-  doc.moveTo(startX, y - 5).lineTo(pageWidth - margin, y - 5).stroke();
+  doc.moveTo(startX, y + 10).lineTo(pageWidth - margin, y + 10).stroke();
+  y += 15;
 
   // Table rows
-  doc.font('Helvetica').fontSize(8);
+  doc.font('RobotoMono-Regular').fontSize(8);
   order.items.forEach(item => {
     const unitPrice = item.Product?.pricing?.[0]?.unitPrice || 0;
     const productName = `${item.Product.name}(${item.Product.strength}) ${item.Product.productType.name}`;
@@ -204,26 +212,31 @@ function generatePOSSlip(order, res) {
   y += 13;
 
   // Totals
-  doc.font('Helvetica-Bold').fontSize(8);
-  doc.text('Subtotal:', startX + colWidths.productName, y, { width: colWidths.qtyUnitPrice, align: 'right' });
-  doc.font('Helvetica').text(`${order.PriceSubTotal.toFixed(2)}`, startX + colWidths.productName + colWidths.qtyUnitPrice, y, { width: colWidths.amount, align: 'right' });
-  y += 12;
+  const totalsLabelX = startX + colWidths.productName - mmToPt(10);
+  const totalsValueX = totalsLabelX + colWidths.qtyUnitPrice;
+  const totalsWidth = colWidths.amount + mmToPt(10);
 
-  doc.font('Helvetica-Bold').text('Discount:', startX + colWidths.productName, y, { width: colWidths.qtyUnitPrice, align: 'right' });
-  doc.font('Helvetica').text(`(-) ${order.discountAmount.toFixed(2)}`, startX + colWidths.productName + colWidths.qtyUnitPrice, y, { width: colWidths.amount, align: 'right' });
-  y += 12;
+  let currentY = y;
 
-  doc.font('Helvetica-Bold').text('Shipping:', startX + colWidths.productName, y, { width: colWidths.qtyUnitPrice, align: 'right' });
-  doc.font('Helvetica').text(`${order.shippingCost.toFixed(2)}`, startX + colWidths.productName + colWidths.qtyUnitPrice, y, { width: colWidths.amount, align: 'right' });
-  y += 15;
+  doc.font('RobotoMono-Bold').fontSize(8).text('Subtotal:', totalsLabelX, currentY, { width: colWidths.qtyUnitPrice, align: 'right' });
+  doc.font('RobotoMono-Regular').text(`${order.PriceSubTotal.toFixed(2)}`, totalsValueX, currentY, { width: totalsWidth, align: 'right' });
+  currentY += 12;
 
-  doc.font('Helvetica-Bold').fontSize(8).text('Total:', startX + colWidths.productName, y, { width: colWidths.qtyUnitPrice, align: 'right' });
-  doc.font('Helvetica').fontSize(8).text(`${order.totalAmount.toFixed(2)}`, startX + colWidths.productName + colWidths.qtyUnitPrice, y, { width: colWidths.amount, align: 'right' });
-  y += 20;
+  doc.font('RobotoMono-Bold').text('Discount:', totalsLabelX, currentY, { width: colWidths.qtyUnitPrice, align: 'right' });
+  doc.font('RobotoMono-Regular').text(`(-) ${order.discountAmount.toFixed(2)}`, totalsValueX, currentY, { width: totalsWidth, align: 'right' });
+  currentY += 12;
+
+  doc.font('RobotoMono-Bold').text('Shipping:', totalsLabelX, currentY, { width: colWidths.qtyUnitPrice, align: 'right' });
+  doc.font('RobotoMono-Regular').text(`${order.shippingCost.toFixed(2)}`, totalsValueX, currentY, { width: totalsWidth, align: 'right' });
+  currentY += 15;
+
+  doc.font('RobotoMono-Bold').fontSize(8).text('Total:', totalsLabelX, currentY, { width: colWidths.qtyUnitPrice, align: 'right' });
+  doc.font('RobotoMono-Regular').fontSize(8).text(`${order.totalAmount.toFixed(2)}`, totalsValueX, currentY, { width: totalsWidth, align: 'right' });
+  y = currentY + 20;
 
   // Footer
   doc.moveTo(startX, y - 10).lineTo(pageWidth - margin, y - 10).stroke();
-  doc.fontSize(8).text('Thank you for your purchase!', 0, y, { align: 'center', width: pageWidth });
+  doc.font('RobotoMono-Regular').fontSize(8).text('Thank you for your purchase!', 0, y, { align: 'center', width: pageWidth });
   doc.fontSize(7).text('Visit us again!', { align: 'center', width: pageWidth });
 
   doc.end();
