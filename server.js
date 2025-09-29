@@ -10,14 +10,14 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => res.json({ status: 'ok' }));
 
-app.get('/download-POS/:orderId', (req, res) => {
+app.get('/download-POS/:orderCode', (req, res) => {
     fs.readFile('data/orderformat.json', 'utf8', (err, data) => {
         if (err) {
             return res.status(500).json({ error: 'Failed to read orders data' });
         }
         try {
             const order = JSON.parse(data);
-            if (order.id === req.params.orderId) {
+            if (order.orderCode === req.params.orderCode) {
                 generatePOSSlip(order, res);
             } else {
                 res.status(404).json({ error: 'Order not found' });

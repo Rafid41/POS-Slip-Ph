@@ -1,0 +1,153 @@
+{
+    "totalAmount": 200,
+    "id": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+    "userId": "22e89e9b-863b-441f-96ea-ede48a013067",
+    "orderCode": "2D2C19CC",
+    "QRCode":"2D2C19CC",
+    "status": "pending-stock",
+    "shippingAddressSnapshot": {
+        "id": "c7020703-9760-47b1-be4a-fd12fd24e0a9",
+        "UserId": "22e89e9b-863b-441f-96ea-ede48a013067",
+        "fullName": "Dinesh Sarkar",
+        "contactNo": "01915265375",
+        "email": "stdineshsarkar94@gmail.com",
+        "villageArea": "pushay nagar",
+        "streetSector": "",
+        "houseHoldingNo": "",
+        "policeStationSubDistrict": "Kulaura",
+        "cityDistrict": "Mauluvibazar",
+        "stateDivision": "Sylhet",
+        "zipCode": "8700",
+        "country": "Bangladesh",
+        "addressType": "both",
+        "isDefaultBilling": false,
+        "isDefaultShipping": false,
+        "createdAt": "2025-09-24T16:33:21.212Z",
+        "updatedAt": "2025-09-24T16:33:21.212Z"
+    },
+    "billingAddressSnapshot": {
+        "id": "c7020703-9760-47b1-be4a-fd12fd24e0a9",
+        "UserId": "22e89e9b-863b-441f-96ea-ede48a013067",
+        "fullName": "Dinesh Sarkar",
+        "contactNo": "01915265375",
+        "email": "stdineshsarkar94@gmail.com",
+        "villageArea": "pushay nagar",
+        "streetSector": "",
+        "houseHoldingNo": "",
+        "policeStationSubDistrict": "Kulaura",
+        "cityDistrict": "Mauluvibazar",
+        "stateDivision": "Sylhet",
+        "zipCode": "8700",
+        "country": "Bangladesh",
+        "addressType": "both",
+        "isDefaultBilling": false,
+        "isDefaultShipping": false,
+        "createdAt": "2025-09-24T16:33:21.212Z",
+        "updatedAt": "2025-09-24T16:33:21.212Z"
+    },
+    "paymentMethod": "COD",
+    "shippingCost": 100,
+    "deliveryPartner": null,
+    "trackingId": null,
+    "estimatedDeliveryTime": null,
+    "discountType": null,
+    "discountAmount": 50,
+    "PriceSubTotal": 225,
+    "prescriptionId": "59d2460a-9386-4644-a63d-58cbd8c930a0",
+    "createdAt": "2025-09-24T16:34:16.638Z",
+    "updatedAt": "2025-09-24T16:34:16.655Z",
+    "User": {
+        "name": "Dinesh Sarkar",
+        "phone": "01915265375",
+        "username": "826088"
+    },
+    "Prescription": {
+        "id": "59d2460a-9386-4644-a63d-58cbd8c930a0",
+        "imagePath": "uploads/prescriptions/1758731656009.png",
+        "status": "pending",
+        "userId": "22e89e9b-863b-441f-96ea-ede48a013067",
+        "createdAt": "2025-09-24T16:34:16.652Z",
+        "updatedAt": "2025-09-24T16:34:16.652Z",
+        "UserId": "22e89e9b-863b-441f-96ea-ede48a013067"
+    },
+    "items": [
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 1,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        }
+    ]
+}
