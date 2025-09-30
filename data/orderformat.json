@@ -148,6 +148,3906 @@
                     }
                 ]
             }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bb580e87-664d-4354-b7d0-3931e4ef0430",
+            "OrderId": "1167adee-7c2d-467a-ba2d-b4d0841c7a44",
+            "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+            "StockBatchId": null,
+            "boxQuantity": 1,
+            "stripQuantity": 2,
+            "unitQuantity": 2,
+            "price": 175,
+            "unitPriceRate": 175,
+            "stripPriceRate": 0,
+            "boxPriceRate": 0,
+            "createdAt": "2025-09-24T16:34:16.657Z",
+            "updatedAt": "2025-09-24T16:34:16.657Z",
+            "StockBatch": null,
+            "Product": {
+                "id": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                "name": "3-Geocef",
+                "strength": "100 mg/5 ml",
+                "SKU": "B00744",
+                "genericNameId": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                "usage": "",
+                "sideEffects": "",
+                "description": "",
+                "imageUrl": "",
+                "brandId": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                "productTypeId": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                "createdAt": "2025-09-22T19:16:09.769Z",
+                "updatedAt": "2025-09-22T19:16:09.769Z",
+                "brand": {
+                    "id": "6a6198c5-c964-454c-9a34-4079dd94909b",
+                    "name": "Hallmark Pharmaceuticals Ltd.",
+                    "imagePath": null,
+                    "createdAt": "2025-09-22T19:15:57.600Z",
+                    "updatedAt": "2025-09-22T19:15:57.600Z"
+                },
+                "genericName": {
+                    "id": "9c67726a-8f0e-41aa-af98-9d66700fac71",
+                    "name": "Cefixime Trihydrate",
+                    "subCategory": "N/A",
+                    "drugClass": "N/A",
+                    "categoryId": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                    "createdAt": "2025-09-22T19:16:08.397Z",
+                    "updatedAt": "2025-09-22T19:16:08.397Z",
+                    "category": {
+                        "id": "4da05d5c-6903-4ee6-87e0-90936cf40335",
+                        "name": "N/A",
+                        "imagePath": null,
+                        "createdAt": "2025-09-22T19:15:56.432Z",
+                        "updatedAt": "2025-09-22T19:15:56.432Z"
+                    }
+                },
+                "productType": {
+                    "id": "e11406f2-2e72-4ef6-86ef-20a87616a8b9",
+                    "name": "Powder for Suspension",
+                    "stripLabel": "Bottle",
+                    "isMultiLevel": "FALSE",
+                    "createdAt": "2025-09-22T19:16:00.476Z",
+                    "updatedAt": "2025-09-22T19:16:00.476Z"
+                },
+                "pricing": [
+                    {
+                        "id": "4d5b1355-061a-449b-8691-b4f2579d23f9",
+                        "ProductId": "a525d0ca-04e1-436b-b5c2-c8f1c5652e7d",
+                        "unitPrice": 175,
+                        "stripPrice": "",
+                        "boxPrice": "",
+                        "unitsPerStrip": "",
+                        "stripsPerBox": "",
+                        "unitSize": "50 ml",
+                        "effectiveFrom": "2025-07-01T00:00:00.000Z",
+                        "effectiveTo": null,
+                        "createdAt": "2025-09-22T19:16:09.772Z",
+                        "updatedAt": "2025-09-22T19:16:09.772Z"
+                    }
+                ]
+            }
         }
     ]
 }

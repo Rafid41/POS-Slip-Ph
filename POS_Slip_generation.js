@@ -136,7 +136,7 @@ function generatePOSSlip(order, res) {
   const rightWidth = usableWidth * 0.3;
 
   // Left: Order details
-  doc.fontSize(6).font('RobotoMono-Bold').text('Order details', margin, orderDetailsStartY, { width: leftWidth });
+  doc.fontSize(6).font('RobotoMono-Bold').text('Order details:', margin, orderDetailsStartY, { width: leftWidth });
   doc.font('RobotoMono-Regular').text(`Code: ${order.orderCode}`, { width: leftWidth });
 
   const createdAt = new Date(order.createdAt);

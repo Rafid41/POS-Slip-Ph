@@ -1,3 +1,6 @@
-make the Bill To section right Align
+in data/orderformat.json,
 
-order detail section will remain as is
+there is one element in item array.
+
+
+add more 50 elements there, dont change nthe current one. the other eement structure will be same as current item element
