@@ -1,15 +1,3 @@
+make the Bill To section right Align
 
-in order details section
-
-
-Order Code:
-Order Date:
-
-Order Status:
-
-Payment Method: 
-
-
-make Order Code => Code
-    Order Date to Date
-    Order Status to Status
+order detail section will remain as is

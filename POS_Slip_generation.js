@@ -142,17 +142,17 @@ function generatePOSSlip(order, res) {
   const createdAt = new Date(order.createdAt);
   const formattedDate = createdAt.toISOString().slice(0, 16).replace('T', ' ');
   doc.text(`Date: ${formattedDate}`, { width: leftWidth });
-  doc.text(`Status: ${order.status}`, { width: leftWidth });
+  doc.text(`Stat: ${order.status}`, { width: leftWidth });
 
   const finalLeftY = doc.y;
 
   // Right: Bill To
   doc.y = orderDetailsStartY;
-  doc.fontSize(6).font('RobotoMono-Bold').text('Bill to:', margin + leftWidth, doc.y, { width: rightWidth });
+  doc.fontSize(6).font('RobotoMono-Bold').text('Bill to:', margin + leftWidth, doc.y, { width: rightWidth, align: 'right' });
   doc.font('RobotoMono-Regular')
-    .text(`CId: ${order.User.username}`, { width: rightWidth })
-    .text(order.billingAddressSnapshot?.contactNo || '', { width: rightWidth });
-  doc.text(`Payment: ${order.paymentMethod}`, { width: leftWidth });
+    .text(`CId: ${order.User.username}`, { width: rightWidth, align: 'right' })
+    .text(order.billingAddressSnapshot?.contactNo || '', { width: rightWidth, align: 'right' });
+  doc.text(`Payment: ${order.paymentMethod}`, { width: rightWidth, align: 'right' });
   const finalRightY = doc.y;
 
   doc.y = Math.max(finalLeftY, finalRightY) + 15;
