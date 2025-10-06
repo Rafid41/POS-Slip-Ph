@@ -44,6 +44,7 @@ function calculateHeight(order, pageWidth, margin) {
     doc.font('RobotoMono-Bold').heightOfString(`Bill to:`, { width: usableWidth * 0.3 }) +
     doc.font('RobotoMono-Regular').heightOfString(order.billingAddressSnapshot?.fullName || '', { width: usableWidth * 0.3 }) +
     doc.heightOfString(`CId: ${order.User.username}`, { width: usableWidth * 0.3 }) +
+    doc.heightOfString(order.shippingAddressSnapshot?.email || '', { width: usableWidth * 0.3 }) +
     doc.heightOfString(order.billingAddressSnapshot?.contactNo || '', { width: usableWidth * 0.3 }) + 10;
 
   const orderAndBillToHeight = Math.max(leftColumnHeight, rightColumnHeight);
@@ -151,6 +152,7 @@ function generatePOSSlip(order, res) {
   doc.fontSize(6).font('RobotoMono-Bold').text('Bill to:', margin + leftWidth, doc.y, { width: rightWidth, align: 'right' });
   doc.font('RobotoMono-Regular')
     .text(`CId: ${order.User.username}`, { width: rightWidth, align: 'right' })
+    .text(order.shippingAddressSnapshot?.email || '', { width: rightWidth, align: 'right' })
     .text(order.billingAddressSnapshot?.contactNo || '', { width: rightWidth, align: 'right' });
   doc.text(`Payment: ${order.paymentMethod}`, { width: rightWidth, align: 'right' });
   const finalRightY = doc.y;

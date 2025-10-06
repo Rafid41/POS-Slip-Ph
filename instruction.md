@@ -1,6 +1,4 @@
-in data/orderformat.json,
 
-there is one element in item array.
+in POS_Slip_generation.js:
+add email address under the CId line, dont need Email: tag, just print the email from data/orderformat.json=>shippingAddressSnapshot.email
 
-
-add more 50 elements there, dont change nthe current one. the other eement structure will be same as current item element
